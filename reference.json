@@ -1,0 +1,3103 @@
+{
+  "build": {
+    "buildDate": "2026-10-16 18:58",
+    "commitSha": "2952782"
+  },
+  "metadata_version": 39,
+  "literal_count": 31562,
+  "identifier_count": 156550,
+  "api_name_count": 329,
+  "api_groups": {
+    "action": [
+      {
+        "name": "ctx.action.create",
+        "literal": 20173,
+        "diagnostics": [
+          {
+            "literal": 20174,
+            "text": "ctx.action.create (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.action.enqueue",
+        "literal": 20175,
+        "diagnostics": [
+          {
+            "literal": 20176,
+            "text": "ctx.action.enqueue (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.action.get",
+        "literal": 20177,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "actor": [
+      {
+        "name": "ctx.actor.addParam",
+        "literal": 20178,
+        "diagnostics": [
+          {
+            "literal": 20179,
+            "text": "ctx.actor.addParam (actor progress state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.addState",
+        "literal": 20180,
+        "diagnostics": [
+          {
+            "literal": 20181,
+            "text": "ctx.actor.addState (actor state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.changeClass",
+        "literal": 20182,
+        "diagnostics": [
+          {
+            "literal": 20183,
+            "text": "ctx.actor.changeClass (actor progress state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.forgetSkill",
+        "literal": 20184,
+        "diagnostics": [
+          {
+            "literal": 20185,
+            "text": "ctx.actor.forgetSkill (actor progress state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.gainHp",
+        "literal": 20186,
+        "diagnostics": [
+          {
+            "literal": 20187,
+            "text": "ctx.actor.gainHp (actor progress state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.gainMp",
+        "literal": 20188,
+        "diagnostics": [
+          {
+            "literal": 20189,
+            "text": "ctx.actor.gainMp (actor progress state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.gainTp",
+        "literal": 20190,
+        "diagnostics": [
+          {
+            "literal": 20191,
+            "text": "ctx.actor.gainTp (actor progress state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.getClassId",
+        "literal": 20192,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.getLevelUpMessages",
+        "literal": 20193,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.getName",
+        "literal": 20194,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.getSkills",
+        "literal": 20195,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.getStates",
+        "literal": 20196,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.hasSkill",
+        "literal": 20197,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.learnSkill",
+        "literal": 20198,
+        "diagnostics": [
+          {
+            "literal": 20199,
+            "text": "ctx.actor.learnSkill (actor progress state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.recoverAll",
+        "literal": 20200,
+        "diagnostics": [
+          {
+            "literal": 20201,
+            "text": "ctx.actor.recoverAll (actor state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.removeState",
+        "literal": 20202,
+        "diagnostics": [
+          {
+            "literal": 20203,
+            "text": "ctx.actor.removeState (actor state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.setImages",
+        "literal": 20204,
+        "diagnostics": [
+          {
+            "literal": 20205,
+            "text": "ctx.actor.setImages (actor image state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.setName",
+        "literal": 20206,
+        "diagnostics": [
+          {
+            "literal": 20207,
+            "text": "ctx.actor.setName (actor text state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.setNickname",
+        "literal": 20208,
+        "diagnostics": [
+          {
+            "literal": 20209,
+            "text": "ctx.actor.setNickname (actor text state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.actor.setProfile",
+        "literal": 20210,
+        "diagnostics": [
+          {
+            "literal": 20211,
+            "text": "ctx.actor.setProfile (actor text state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "audio": [
+      {
+        "name": "ctx.audio.fadeoutBgm",
+        "literal": 20212,
+        "diagnostics": [
+          {
+            "literal": 20213,
+            "text": "ctx.audio.fadeoutBgm (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.fadeoutBgs",
+        "literal": 20214,
+        "diagnostics": [
+          {
+            "literal": 20215,
+            "text": "ctx.audio.fadeoutBgs (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.playBgm",
+        "literal": 20216,
+        "diagnostics": [
+          {
+            "literal": 20217,
+            "text": "ctx.audio.playBgm (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.playBgs",
+        "literal": 20218,
+        "diagnostics": [
+          {
+            "literal": 20219,
+            "text": "ctx.audio.playBgs (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.playMe",
+        "literal": 20220,
+        "diagnostics": [
+          {
+            "literal": 20221,
+            "text": "ctx.audio.playMe (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.playSe",
+        "literal": 20222,
+        "diagnostics": [
+          {
+            "literal": 20223,
+            "text": "ctx.audio.playSe (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.resumeBgm",
+        "literal": 20224,
+        "diagnostics": [
+          {
+            "literal": 20225,
+            "text": "ctx.audio.resumeBgm (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.saveBgm",
+        "literal": 20226,
+        "diagnostics": [
+          {
+            "literal": 20227,
+            "text": "ctx.audio.saveBgm (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.setBattleBgm",
+        "literal": 20228,
+        "diagnostics": [
+          {
+            "literal": 20229,
+            "text": "ctx.audio.setBattleBgm (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.setDefeatMe",
+        "literal": 20230,
+        "diagnostics": [
+          {
+            "literal": 20231,
+            "text": "ctx.audio.setDefeatMe (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.setVictoryMe",
+        "literal": 20232,
+        "diagnostics": [
+          {
+            "literal": 20233,
+            "text": "ctx.audio.setVictoryMe (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.audio.stopSe",
+        "literal": 20234,
+        "diagnostics": [
+          {
+            "literal": 20235,
+            "text": "ctx.audio.stopSe (audio runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "battle": [
+      {
+        "name": "ctx.battle.abort",
+        "literal": 20236,
+        "diagnostics": [
+          {
+            "literal": 20237,
+            "text": "ctx.battle.abort (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.advancePhase",
+        "literal": 20238,
+        "diagnostics": [
+          {
+            "literal": 20239,
+            "text": "ctx.battle.advancePhase (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.appearEnemy",
+        "literal": 20240,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.changeBattleback",
+        "literal": 20241,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getActionOrder",
+        "literal": 20242,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getCommonEvent",
+        "literal": 20243,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getItemInfo",
+        "literal": 20244,
+        "diagnostics": [
+          {
+            "literal": 20245,
+            "text": "ctx.battle.getItemInfo (item info seam not wired)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getMembers",
+        "literal": 20246,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getPhase",
+        "literal": 20247,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getQueued",
+        "literal": 20248,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getResult",
+        "literal": 20249,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getRewards",
+        "literal": 20250,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getSkillInfo",
+        "literal": 20251,
+        "diagnostics": [
+          {
+            "literal": 20252,
+            "text": "ctx.battle.getSkillInfo (skill info seam not wired)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getStartAdvantage",
+        "literal": 20253,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getStateInfo",
+        "literal": 20254,
+        "diagnostics": [
+          {
+            "literal": 20255,
+            "text": "ctx.battle.getStateInfo (state info seam not wired)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getTroopPages",
+        "literal": 20256,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.getTurn",
+        "literal": 20257,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.isFastForward",
+        "literal": 20258,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.isLogBusy",
+        "literal": 20259,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.isStartMessagePending",
+        "literal": 20260,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.judge",
+        "literal": 20261,
+        "diagnostics": [
+          {
+            "literal": 20262,
+            "text": "ctx.battle.judge (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.logEventTrace",
+        "literal": 20263,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.nextRandom",
+        "literal": 20264,
+        "diagnostics": [
+          {
+            "literal": 20265,
+            "text": "ctx.battle.nextRandom (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.pushLog",
+        "literal": 20266,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.requestEscape",
+        "literal": 20267,
+        "diagnostics": [
+          {
+            "literal": 20268,
+            "text": "ctx.battle.requestEscape (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.setFlow",
+        "literal": 20269,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.startEncounter",
+        "literal": 20270,
+        "diagnostics": [
+          {
+            "literal": 20271,
+            "text": "ctx.battle.startEncounter (host not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battle.transformEnemy",
+        "literal": 20272,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "battler": [
+      {
+        "name": "ctx.battler.addParam",
+        "literal": 20273,
+        "diagnostics": [
+          {
+            "literal": 20274,
+            "text": "ctx.battler.addParam (battle store not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.addState",
+        "literal": 20275,
+        "diagnostics": [
+          {
+            "literal": 20276,
+            "text": "ctx.battler.addState (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.applyDamage",
+        "literal": 20277,
+        "diagnostics": [
+          {
+            "literal": 20278,
+            "text": "ctx.battler.applyDamage (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.applyMpDamage",
+        "literal": 20279,
+        "diagnostics": [
+          {
+            "literal": 20280,
+            "text": "ctx.battler.applyMpDamage (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.gainTp",
+        "literal": 20281,
+        "diagnostics": [
+          {
+            "literal": 20282,
+            "text": "ctx.battler.gainTp (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.getInfo",
+        "literal": 20283,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.getParam",
+        "literal": 20284,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.getStates",
+        "literal": 20285,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.getTraits",
+        "literal": 20286,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.removeState",
+        "literal": 20287,
+        "diagnostics": [
+          {
+            "literal": 20288,
+            "text": "ctx.battler.removeState (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.battler.setGuard",
+        "literal": 20289,
+        "diagnostics": [
+          {
+            "literal": 20290,
+            "text": "ctx.battler.setGuard (no active battle)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "command": [
+      {
+        "name": "ctx.command.advance",
+        "literal": 20293,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.branch",
+        "literal": 20294,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.breakLoop",
+        "literal": 20295,
+        "diagnostics": [
+          {
+            "literal": 20296,
+            "text": "ctx.command.breakLoop (no active event)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.callCommonEvent",
+        "literal": 20297,
+        "diagnostics": [
+          {
+            "literal": 20298,
+            "text": "ctx.command.callCommonEvent (no active event)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.clearChoiceBranch",
+        "literal": 20299,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.current",
+        "literal": 20300,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.endFrameWait",
+        "literal": 20301,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.exitList",
+        "literal": 20302,
+        "diagnostics": [
+          {
+            "literal": 20303,
+            "text": "ctx.command.exitList (no active event)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.finish",
+        "literal": 20304,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.frameWaitRemaining",
+        "literal": 20305,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.frameWaiting",
+        "literal": 20306,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.getChoiceBranch",
+        "literal": 20307,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.getEventUid",
+        "literal": 20308,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.isOnCurrentMap",
+        "literal": 20309,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.jumpToLabel",
+        "literal": 20310,
+        "diagnostics": [
+          {
+            "literal": 20311,
+            "text": "ctx.command.jumpToLabel (no active event)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.repeatLoop",
+        "literal": 20312,
+        "diagnostics": [
+          {
+            "literal": 20313,
+            "text": "ctx.command.repeatLoop (no active event)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.reserveCommonEvent",
+        "literal": 20314,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.setChoiceBranch",
+        "literal": 20315,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.startFrameWait",
+        "literal": 20316,
+        "diagnostics": [
+          {
+            "literal": 20317,
+            "text": "ctx.command.startFrameWait (no active event)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.command.yieldFrame",
+        "literal": 20318,
+        "diagnostics": [
+          {
+            "literal": 20319,
+            "text": "ctx.command.yieldFrame (no active event)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "config": [
+      {
+        "name": "ctx.config.get",
+        "literal": 20320,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.config.registerOption",
+        "literal": 20321,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.config.set",
+        "literal": 20322,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "db": [
+      {
+        "name": "ctx.db.count",
+        "literal": 20323,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getActor",
+        "literal": 20324,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getArmor",
+        "literal": 20325,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getClass",
+        "literal": 20326,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getCommonEvent",
+        "literal": 20327,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getCustom",
+        "literal": 20328,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getEnemy",
+        "literal": 20329,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getItem",
+        "literal": 20330,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getSkill",
+        "literal": 20331,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getState",
+        "literal": 20332,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getSystem",
+        "literal": 20333,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getTroop",
+        "literal": 20334,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.getWeapon",
+        "literal": 20335,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.db.listCustom",
+        "literal": 20336,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "editor": [
+      {
+        "name": "ctx.editor.beginUndoGroup",
+        "literal": 20339,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.checkLuau",
+        "literal": 20340,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.endUndoGroup",
+        "literal": 20341,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.getCurrentMap",
+        "literal": 20342,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.getMapInfo",
+        "literal": 20343,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.getSelection",
+        "literal": 20344,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.listMaps",
+        "literal": 20345,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.listParts",
+        "literal": 20346,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.listPresets",
+        "literal": 20347,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.log",
+        "literal": 20348,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.openMap",
+        "literal": 20349,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.paintGround",
+        "literal": 20350,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.paintGroundCells",
+        "literal": 20351,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.paintGroundRect",
+        "literal": 20352,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.placePart",
+        "literal": 20353,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.placeParts",
+        "literal": 20354,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.removePart",
+        "literal": 20355,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.setPartFlags",
+        "literal": 20356,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.editor.setPartSubTileOffset",
+        "literal": 20357,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "effect": [
+      {
+        "name": "ctx.effect.beginBattlerMotion",
+        "literal": 20358,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.effect.beginBattlerMove",
+        "literal": 20359,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.effect.isBattleAnimationPlaying",
+        "literal": 20360,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.effect.isBattlerMoving",
+        "literal": 20361,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.effect.isMotionPlaying",
+        "literal": 20362,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.effect.showAnimation",
+        "literal": 20363,
+        "diagnostics": [
+          {
+            "literal": 20364,
+            "text": "ctx.effect.showAnimation (effect runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.effect.showBalloon",
+        "literal": 20365,
+        "diagnostics": [
+          {
+            "literal": 20366,
+            "text": "ctx.effect.showBalloon (effect runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.effect.showBattleAnimation",
+        "literal": 20367,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "event": [
+      {
+        "name": "ctx.event.callEvent",
+        "literal": 20368,
+        "diagnostics": [
+          {
+            "literal": 20369,
+            "text": "ctx.event.callEvent (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.despawn",
+        "literal": 20370,
+        "diagnostics": [
+          {
+            "literal": 20371,
+            "text": "ctx.event.despawn (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.erase",
+        "literal": 20372,
+        "diagnostics": [
+          {
+            "literal": 20373,
+            "text": "ctx.event.erase (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.findPlacement",
+        "literal": 20374,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.getInfo",
+        "literal": 20375,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.getSelfVar",
+        "literal": 20376,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.setControlled",
+        "literal": 20377,
+        "diagnostics": [
+          {
+            "literal": 20378,
+            "text": "ctx.event.setControlled (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.setDirection",
+        "literal": 20379,
+        "diagnostics": [
+          {
+            "literal": 20380,
+            "text": "ctx.event.setDirection (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.setPosition",
+        "literal": 20381,
+        "diagnostics": [
+          {
+            "literal": 20382,
+            "text": "ctx.event.setPosition (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.setSelfVar",
+        "literal": 20383,
+        "diagnostics": [
+          {
+            "literal": 20384,
+            "text": "ctx.event.setSelfVar (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.setVisible",
+        "literal": 20385,
+        "diagnostics": [
+          {
+            "literal": 20386,
+            "text": "ctx.event.setVisible (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.spawn",
+        "literal": 20387,
+        "diagnostics": [
+          {
+            "literal": 20388,
+            "text": "ctx.event.spawn (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.event.step",
+        "literal": 20389,
+        "diagnostics": [
+          {
+            "literal": 20390,
+            "text": "ctx.event.step (event runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "game": [
+      {
+        "name": "ctx.game.evalLuau",
+        "literal": 20391,
+        "diagnostics": [
+          {
+            "literal": 20392,
+            "text": "ctx.game.evalLuau (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.evaluateCondition",
+        "literal": 20393,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.evaluateScript",
+        "literal": 20394,
+        "diagnostics": [
+          {
+            "literal": 20395,
+            "text": "ctx.game.evaluateScript (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.getActorParam",
+        "literal": 20396,
+        "diagnostics": [
+          {
+            "literal": 20397,
+            "text": "ctx.game.getActorParam (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.getLastActionData",
+        "literal": 20398,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.getSelfSwitch",
+        "literal": 20399,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.getStat",
+        "literal": 20400,
+        "diagnostics": [
+          {
+            "literal": 20401,
+            "text": "ctx.game.getStat (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.getSwitch",
+        "literal": 20402,
+        "diagnostics": [
+          {
+            "literal": 20403,
+            "text": "ctx.game.getSwitch (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.getTimerSeconds",
+        "literal": 20404,
+        "diagnostics": [
+          {
+            "literal": 20405,
+            "text": "ctx.game.getTimerSeconds (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.getVariable",
+        "literal": 20406,
+        "diagnostics": [
+          {
+            "literal": 20407,
+            "text": "ctx.game.getVariable (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.isTimerRunning",
+        "literal": 20408,
+        "diagnostics": [
+          {
+            "literal": 20409,
+            "text": "ctx.game.isTimerRunning (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.random",
+        "literal": 20410,
+        "diagnostics": [
+          {
+            "literal": 20411,
+            "text": "ctx.game.random (game state not integrated)"
+          },
+          {
+            "literal": 20412,
+            "text": "ctx.game.random is not allowed inside a script operand expression"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.runScript",
+        "literal": 20413,
+        "diagnostics": [
+          {
+            "literal": 20414,
+            "text": "ctx.game.runScript (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.setEncounterEnabled",
+        "literal": 20415,
+        "diagnostics": [
+          {
+            "literal": 20416,
+            "text": "ctx.game.setEncounterEnabled (system flags not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.setFormationEnabled",
+        "literal": 20417,
+        "diagnostics": [
+          {
+            "literal": 20418,
+            "text": "ctx.game.setFormationEnabled (system flags not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.setLastActionData",
+        "literal": 20419,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.setMenuEnabled",
+        "literal": 20420,
+        "diagnostics": [
+          {
+            "literal": 20421,
+            "text": "ctx.game.setMenuEnabled (system flags not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.setSaveEnabled",
+        "literal": 20422,
+        "diagnostics": [
+          {
+            "literal": 20423,
+            "text": "ctx.game.setSaveEnabled (system flags not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.setSelfSwitch",
+        "literal": 20424,
+        "diagnostics": [
+          {
+            "literal": 20425,
+            "text": "ctx.game.setSelfSwitch (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.setSwitch",
+        "literal": 20426,
+        "diagnostics": [
+          {
+            "literal": 20427,
+            "text": "ctx.game.setSwitch (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.setVariable",
+        "literal": 20428,
+        "diagnostics": [
+          {
+            "literal": 20429,
+            "text": "ctx.game.setVariable (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.setWindowTone",
+        "literal": 20430,
+        "diagnostics": [
+          {
+            "literal": 20431,
+            "text": "ctx.game.setWindowTone (system flags not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.startTimer",
+        "literal": 20432,
+        "diagnostics": [
+          {
+            "literal": 20433,
+            "text": "ctx.game.startTimer (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.game.stopTimer",
+        "literal": 20434,
+        "diagnostics": [
+          {
+            "literal": 20435,
+            "text": "ctx.game.stopTimer (game state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "i18n": [
+      {
+        "name": "ctx.i18n.baseLocale",
+        "literal": 20436,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.i18n.locale",
+        "literal": 20437,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.i18n.locales",
+        "literal": 20438,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.i18n.setLocale",
+        "literal": 20439,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.i18n.table",
+        "literal": 20440,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "input": [
+      {
+        "name": "ctx.input.getKey",
+        "literal": 20444,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.input.getKeyDown",
+        "literal": 20445,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.input.isButton",
+        "literal": 20446,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.input.poll",
+        "literal": 20447,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "inventory": [
+      {
+        "name": "ctx.inventory.enumerateItemIds",
+        "literal": 20448,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.inventory.gainArmor",
+        "literal": 20450,
+        "diagnostics": [
+          {
+            "literal": 20451,
+            "text": "ctx.inventory.gainArmor (inventory state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.inventory.gainItem",
+        "literal": 20452,
+        "diagnostics": [
+          {
+            "literal": 20453,
+            "text": "ctx.inventory.gainItem (inventory state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.inventory.gainWeapon",
+        "literal": 20454,
+        "diagnostics": [
+          {
+            "literal": 20455,
+            "text": "ctx.inventory.gainWeapon (inventory state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.inventory.getArmorCount",
+        "literal": 20456,
+        "diagnostics": [
+          {
+            "literal": 20457,
+            "text": "ctx.inventory.getArmorCount (inventory state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.inventory.getItemCount",
+        "literal": 20458,
+        "diagnostics": [
+          {
+            "literal": 20459,
+            "text": "ctx.inventory.getItemCount (inventory state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.inventory.getWeaponCount",
+        "literal": 20460,
+        "diagnostics": [
+          {
+            "literal": 20461,
+            "text": "ctx.inventory.getWeaponCount (inventory state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "manifest": [
+      {
+        "name": "ctx.manifest.getCommandDef",
+        "literal": 20462,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.manifest.getManifest",
+        "literal": 20463,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "map": [
+      {
+        "name": "ctx.map.changeParallax",
+        "literal": 20464,
+        "diagnostics": [
+          {
+            "literal": 20465,
+            "text": "ctx.map.changeParallax (no map loaded)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.changeTilesetFamily",
+        "literal": 20466,
+        "diagnostics": [
+          {
+            "literal": 20467,
+            "text": "ctx.map.changeTilesetFamily (no map loaded)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.forceMoveRoute",
+        "literal": 20468,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.getCurrentMap",
+        "literal": 20469,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.getEvent",
+        "literal": 20470,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.getLocationInfo",
+        "literal": 20471,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.getOnOffVehicle",
+        "literal": 20472,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.getPassability",
+        "literal": 20473,
+        "diagnostics": [
+          {
+            "literal": 20474,
+            "text": "ctx.map.getPassability (no map loaded)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.requestTransfer",
+        "literal": 20475,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.resolveMapGuid",
+        "literal": 20476,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.resolveMapId",
+        "literal": 20477,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.setEventLocation",
+        "literal": 20478,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.setNameDisplay",
+        "literal": 20479,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.setVehicleBgm",
+        "literal": 20480,
+        "diagnostics": [
+          {
+            "literal": 20481,
+            "text": "ctx.map.setVehicleBgm (vehicles not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.setVehicleImage",
+        "literal": 20482,
+        "diagnostics": [
+          {
+            "literal": 20483,
+            "text": "ctx.map.setVehicleImage (vehicles not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.setVehicleLocation",
+        "literal": 20484,
+        "diagnostics": [
+          {
+            "literal": 20485,
+            "text": "ctx.map.setVehicleLocation (vehicles not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.map.swapEventLocation",
+        "literal": 20486,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "meta": [
+      {
+        "name": "ctx.meta.get",
+        "literal": 20487,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.meta.has",
+        "literal": 20488,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.meta.list",
+        "literal": 20489,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "parameter": [
+      {
+        "name": "ctx.parameter.get",
+        "literal": 20490,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.parameter.getDefault",
+        "literal": 20491,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "party": [
+      {
+        "name": "ctx.party.addExp",
+        "literal": 20492,
+        "diagnostics": [
+          {
+            "literal": 20493,
+            "text": "ctx.party.addExp (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.addGold",
+        "literal": 20494,
+        "diagnostics": [
+          {
+            "literal": 20495,
+            "text": "ctx.party.addGold (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.changeEquip",
+        "literal": 20496,
+        "diagnostics": [
+          {
+            "literal": 20497,
+            "text": "ctx.party.changeEquip (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.changeMember",
+        "literal": 20498,
+        "diagnostics": [
+          {
+            "literal": 20499,
+            "text": "ctx.party.changeMember (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.gainExp",
+        "literal": 20500,
+        "diagnostics": [
+          {
+            "literal": 20501,
+            "text": "ctx.party.gainExp (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.gainGold",
+        "literal": 20502,
+        "diagnostics": [
+          {
+            "literal": 20503,
+            "text": "ctx.party.gainGold (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.getActorExp",
+        "literal": 20504,
+        "diagnostics": [
+          {
+            "literal": 20505,
+            "text": "ctx.party.getActorExp (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.getActorLevel",
+        "literal": 20506,
+        "diagnostics": [
+          {
+            "literal": 20507,
+            "text": "ctx.party.getActorLevel (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.getActorMaxLevel",
+        "literal": 20508,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.getEquips",
+        "literal": 20509,
+        "diagnostics": [
+          {
+            "literal": 20510,
+            "text": "ctx.party.getEquips (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.getGold",
+        "literal": 20511,
+        "diagnostics": [
+          {
+            "literal": 20512,
+            "text": "ctx.party.getGold (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.getMembers",
+        "literal": 20513,
+        "diagnostics": [
+          {
+            "literal": 20514,
+            "text": "ctx.party.getMembers (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.getRequiredExp",
+        "literal": 20515,
+        "diagnostics": [
+          {
+            "literal": 20516,
+            "text": "ctx.party.getRequiredExp (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.party.setActorLevel",
+        "literal": 20517,
+        "diagnostics": [
+          {
+            "literal": 20518,
+            "text": "ctx.party.setActorLevel (party state not integrated)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "player": [
+      {
+        "name": "ctx.player.gatherFollowers",
+        "literal": 20519,
+        "diagnostics": [
+          {
+            "literal": 20520,
+            "text": "ctx.player.gatherFollowers (player runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.getDirection",
+        "literal": 20521,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.getInfo",
+        "literal": 20522,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.getVehicleKind",
+        "literal": 20523,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.jump",
+        "literal": 20524,
+        "diagnostics": [
+          {
+            "literal": 20525,
+            "text": "ctx.player.jump (player runtime not bound)"
+          },
+          {
+            "literal": 20526,
+            "text": "ctx.player.jump is not allowed while riding a vehicle"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.setDirection",
+        "literal": 20527,
+        "diagnostics": [
+          {
+            "literal": 20528,
+            "text": "ctx.player.setDirection (player runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.setFollowersVisible",
+        "literal": 20529,
+        "diagnostics": [
+          {
+            "literal": 20530,
+            "text": "ctx.player.setFollowersVisible (player runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.setMoveSpeed",
+        "literal": 20531,
+        "diagnostics": [
+          {
+            "literal": 20532,
+            "text": "ctx.player.setMoveSpeed (player runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.setPosition",
+        "literal": 20533,
+        "diagnostics": [
+          {
+            "literal": 20534,
+            "text": "ctx.player.setPosition (player runtime not bound)"
+          },
+          {
+            "literal": 20535,
+            "text": "ctx.player.setPosition is not allowed while riding a vehicle"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.setThrough",
+        "literal": 20536,
+        "diagnostics": [
+          {
+            "literal": 20537,
+            "text": "ctx.player.setThrough (player runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.player.setTransparent",
+        "literal": 20538,
+        "diagnostics": [
+          {
+            "literal": 20539,
+            "text": "ctx.player.setTransparent (player runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "plugin": [
+      {
+        "name": "ctx.plugin.getState",
+        "literal": 20540,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.plugin.parameters",
+        "literal": 20541,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.plugin.parseValue",
+        "literal": 20542,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.plugin.setState",
+        "literal": 20543,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.plugin.typedParameters",
+        "literal": 20544,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "scene": [
+      {
+        "name": "ctx.scene.back",
+        "literal": 20545,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.scene.current",
+        "literal": 20546,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.scene.goto",
+        "literal": 20547,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.scene.openMenu",
+        "literal": 20548,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.scene.openSaveScreen",
+        "literal": 20549,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.scene.openShop",
+        "literal": 20550,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "screen": [
+      {
+        "name": "ctx.screen.applyBloom",
+        "literal": 20551,
+        "diagnostics": [
+          {
+            "literal": 20552,
+            "text": "ctx.screen.applyBloom (post-effect runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.applyBlur",
+        "literal": 20553,
+        "diagnostics": [
+          {
+            "literal": 20554,
+            "text": "ctx.screen.applyBlur (post-effect runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.applyFill",
+        "literal": 20555,
+        "diagnostics": [
+          {
+            "literal": 20556,
+            "text": "ctx.screen.applyFill (post-effect runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.applyGlitch",
+        "literal": 20557,
+        "diagnostics": [
+          {
+            "literal": 20558,
+            "text": "ctx.screen.applyGlitch (post-effect runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.applyPixelate",
+        "literal": 20559,
+        "diagnostics": [
+          {
+            "literal": 20560,
+            "text": "ctx.screen.applyPixelate (post-effect runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.erasePicture",
+        "literal": 20561,
+        "diagnostics": [
+          {
+            "literal": 20562,
+            "text": "ctx.screen.erasePicture (picture runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.fadeIn",
+        "literal": 20563,
+        "diagnostics": [
+          {
+            "literal": 20564,
+            "text": "ctx.screen.fadeIn (screen fader not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.fadeOut",
+        "literal": 20565,
+        "diagnostics": [
+          {
+            "literal": 20566,
+            "text": "ctx.screen.fadeOut (screen fader not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.flashScreen",
+        "literal": 20567,
+        "diagnostics": [
+          {
+            "literal": 20568,
+            "text": "ctx.screen.flashScreen (screen state runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.isFading",
+        "literal": 20569,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.isPictureWaiting",
+        "literal": 20570,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.isPostEffectWaiting",
+        "literal": 20571,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.isVideoPlaying",
+        "literal": 20572,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.movePicture",
+        "literal": 20573,
+        "diagnostics": [
+          {
+            "literal": 20574,
+            "text": "ctx.screen.movePicture (picture runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.playVideo",
+        "literal": 20575,
+        "diagnostics": [
+          {
+            "literal": 20576,
+            "text": "ctx.screen.playVideo (video runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.removePostEffect",
+        "literal": 20577,
+        "diagnostics": [
+          {
+            "literal": 20578,
+            "text": "ctx.screen.removePostEffect (post-effect runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.rotatePicture",
+        "literal": 20579,
+        "diagnostics": [
+          {
+            "literal": 20580,
+            "text": "ctx.screen.rotatePicture (picture runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.scrollMap",
+        "literal": 20581,
+        "diagnostics": [
+          {
+            "literal": 20582,
+            "text": "ctx.screen.scrollMap (camera runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.setBattlebackMap",
+        "literal": 20583,
+        "diagnostics": [
+          {
+            "literal": 20584,
+            "text": "ctx.screen.setBattlebackMap (screen not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.setCameraAngle",
+        "literal": 20585,
+        "diagnostics": [
+          {
+            "literal": 20586,
+            "text": "ctx.screen.setCameraAngle (camera runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.setCameraAnglePreset",
+        "literal": 20587,
+        "diagnostics": [
+          {
+            "literal": 20588,
+            "text": "ctx.screen.setCameraAnglePreset (camera runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.setCameraFocus",
+        "literal": 20589,
+        "diagnostics": [
+          {
+            "literal": 20590,
+            "text": "ctx.screen.setCameraFocus (camera runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.setCameraZoom",
+        "literal": 20591,
+        "diagnostics": [
+          {
+            "literal": 20592,
+            "text": "ctx.screen.setCameraZoom (camera runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.setPictureText",
+        "literal": 20593,
+        "diagnostics": [
+          {
+            "literal": 20594,
+            "text": "ctx.screen.setPictureText (picture runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.setScreenEffect",
+        "literal": 20595,
+        "diagnostics": [
+          {
+            "literal": 20596,
+            "text": "ctx.screen.setScreenEffect (screen effect runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.setWeather",
+        "literal": 20597,
+        "diagnostics": [
+          {
+            "literal": 20598,
+            "text": "ctx.screen.setWeather (screen state runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.shakeScreen",
+        "literal": 20599,
+        "diagnostics": [
+          {
+            "literal": 20600,
+            "text": "ctx.screen.shakeScreen (screen state runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.showPicture",
+        "literal": 20601,
+        "diagnostics": [
+          {
+            "literal": 20602,
+            "text": "ctx.screen.showPicture (picture runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.startTimeOfDayTransition",
+        "literal": 20603,
+        "diagnostics": [
+          {
+            "literal": 20604,
+            "text": "ctx.screen.startTimeOfDayTransition (time-of-day runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.tintPicture",
+        "literal": 20605,
+        "diagnostics": [
+          {
+            "literal": 20606,
+            "text": "ctx.screen.tintPicture (picture runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.screen.tintScreen",
+        "literal": 20607,
+        "diagnostics": [
+          {
+            "literal": 20608,
+            "text": "ctx.screen.tintScreen (screen state runtime not bound)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "sprite": [
+      {
+        "name": "ctx.sprite.clear",
+        "literal": 20609,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.create",
+        "literal": 20610,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.destroy",
+        "literal": 20611,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.drawGauge",
+        "literal": 20612,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.drawText",
+        "literal": 20613,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.fillRect",
+        "literal": 20614,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.hitTest",
+        "literal": 20615,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.playSheet",
+        "literal": 20616,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.set",
+        "literal": 20617,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.setMany",
+        "literal": 20618,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.stopSheet",
+        "literal": 20619,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.sprite.tween",
+        "literal": 20620,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "text": [
+      {
+        "name": "ctx.text.convert",
+        "literal": 20621,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.text.convertRich",
+        "literal": 20622,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.text.registerEscape",
+        "literal": 20623,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ],
+    "ui": [
+      {
+        "name": "ctx.ui.activateList",
+        "literal": 20624,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.addChoiceText",
+        "literal": 20625,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.addScrollTextLine",
+        "literal": 20626,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.advance",
+        "literal": 20627,
+        "diagnostics": [
+          {
+            "literal": 20628,
+            "text": "ctx.ui.advance (no active message)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.appendLine",
+        "literal": 20629,
+        "diagnostics": [
+          {
+            "literal": 20630,
+            "text": "ctx.ui.appendLine (no active message)"
+          }
+        ],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.clearWindows",
+        "literal": 20631,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.closeMessage",
+        "literal": 20632,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.createWindow",
+        "literal": 20633,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.destroyWindow",
+        "literal": 20634,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.holdForChoices",
+        "literal": 20635,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.isBusy",
+        "literal": 20636,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.isChoiceBusy",
+        "literal": 20637,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.isItemSelectBusy",
+        "literal": 20638,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.isNameInputBusy",
+        "literal": 20639,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.isNumberInputBusy",
+        "literal": 20640,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.isScrollTextBusy",
+        "literal": 20641,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.refreshList",
+        "literal": 20642,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.registerScene",
+        "literal": 20643,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.sceneWindow",
+        "literal": 20644,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.setListVisible",
+        "literal": 20645,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.setMessageStyle",
+        "literal": 20646,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.setWindow",
+        "literal": 20647,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.showChoices",
+        "literal": 20648,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.showItemSelect",
+        "literal": 20649,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.showMessage",
+        "literal": 20650,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.showNameInput",
+        "literal": 20651,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.showNumberInput",
+        "literal": 20652,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.showScrollText",
+        "literal": 20653,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.takeChoiceResult",
+        "literal": 20654,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.takeItemSelectResult",
+        "literal": 20655,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.takeNameInputResult",
+        "literal": 20656,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      },
+      {
+        "name": "ctx.ui.takeNumberInputResult",
+        "literal": 20657,
+        "diagnostics": [],
+        "status": "name observed; signature not recovered"
+      }
+    ]
+  },
+  "runtime_hook_names": [
+    {
+      "name": "game.boot",
+      "literal": 21779,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "game.start",
+      "literal": 21783,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "game.update",
+      "literal": 21784,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "game.canGameOver",
+      "literal": 21780,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "game.localeChanged",
+      "literal": 21781,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "map.beforeLoad",
+      "literal": 23099,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "map.loaded",
+      "literal": 23101,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "map.canPass",
+      "literal": 23100,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "map.tileFlags",
+      "literal": 23106,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "map.regionEnter",
+      "literal": 23104,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "map.regionLeave",
+      "literal": 23105,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "event.started",
+      "literal": 21323,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "event.finished",
+      "literal": 21321,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "event.parallelTick",
+      "literal": 21322,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "event.create",
+      "literal": 21315,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "scene.beforeChange",
+      "literal": 24679,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "scene.changed",
+      "literal": 24680,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "save.before",
+      "literal": 24640,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "save.after",
+      "literal": 24639,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "load.after",
+      "literal": 22862,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "actor.param",
+      "literal": 19038,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "actor.traitObjects",
+      "literal": 19039,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "input.map",
+      "literal": 22348,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "player.moveByInput",
+      "literal": 24101,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "text.escape",
+      "literal": 25527,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "text.convert",
+      "literal": 25526,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "message.charAdvance",
+      "literal": 23257,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "picture.click",
+      "literal": 24063,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "sprite.click",
+      "literal": 25136,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "inventory.gain",
+      "literal": 22441,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.actionEnd",
+      "literal": 19402,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.actionStart",
+      "literal": 19403,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.actorCommandStart",
+      "literal": 19404,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.canUse",
+      "literal": 19405,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.commandList",
+      "literal": 19406,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.critRate",
+      "literal": 19407,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.damage",
+      "literal": 19408,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.damageValue",
+      "literal": 19409,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.escape",
+      "literal": 19410,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.evaRate",
+      "literal": 19411,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.hitRate",
+      "literal": 19412,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.result",
+      "literal": 19413,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.sceneOpen",
+      "literal": 19414,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.skillCost",
+      "literal": 19415,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.start",
+      "literal": 19416,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.startMessageHold",
+      "literal": 19417,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.turnEnd",
+      "literal": 19418,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "battle.turnStart",
+      "literal": 19419,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "menu.commands",
+      "literal": 23240,
+      "status": "name observed; payload/return contract not recovered"
+    },
+    {
+      "name": "menu.commandOk",
+      "literal": 23239,
+      "status": "name observed; payload/return contract not recovered"
+    }
+  ],
+  "editor_hooks": [
+    "project.opened",
+    "project.closed",
+    "map.opened",
+    "liveplay.before",
+    "liveplay.after"
+  ],
+  "editor_bootstrap_literal": 65,
+  "editor_shim_contracts": {
+    "onEditor": {
+      "arguments": [
+        "hookId: string",
+        "handler: function"
+      ],
+      "callback_arguments": [
+        "payload: table (payload.hook verified)"
+      ],
+      "unknown_hook": "warn once and ignore",
+      "errors": "pcall per handler",
+      "status": "recovered implementation; not executed in U2U"
+    },
+    "registerParamEditor": {
+      "required": [
+        "type: nonempty string",
+        "open: function"
+      ],
+      "optional": [
+        "render: function",
+        "validate: function"
+      ],
+      "lookup": "case insensitive",
+      "duplicates": "later registration wins",
+      "open_commit": "string return only",
+      "status": "recovered implementation; not executed in U2U"
+    },
+    "pick": {
+      "methods": [
+        "position",
+        "event",
+        "region"
+      ],
+      "scope": "active host-managed parameter-editor open coroutine only",
+      "options_and_result_schema": "unknown",
+      "status": "recovered implementation; not executed in U2U"
+    }
+  },
+  "sources": [
+    {
+      "path": "RPGU2U_Demo_Data/il2cpp_data/Metadata/global-metadata.dat",
+      "bytes": 16839620,
+      "sha256": "431c4fa34d777248cd2e436ba9f4724cfa7be5c2b58e2a7ae3bfdbac03b67ea7"
+    },
+    {
+      "path": "GameAssembly.dll",
+      "bytes": 85936128,
+      "sha256": "6cf2ea99aba510b0ba59151e88186e635358cd8aa9788558b24d0ef2cd079a7d"
+    },
+    {
+      "path": "RPGU2U_Demo_Data/Plugins/x86_64/LuauCAbi.dll",
+      "bytes": 726016,
+      "sha256": "e39f361a719a61b1daa79670c7c3aeeb6e72897497a555185751306e69b87924"
+    },
+    {
+      "path": "RPGU2U_Demo_Data/StreamingAssets/U2U/BuildInfo/buildinfo.json",
+      "bytes": 67,
+      "sha256": "21969ede12c92e726a5a30e9cddc270def2adebcd2f47890e867cfdc122d8807"
+    },
+    {
+      "path": "U2U_editor_licenses.md",
+      "bytes": 66793,
+      "sha256": "d88a11ef6918d222df8dfa2ea4a2dcdb791dc2a87d1f12b19bd4b8c7e38aa00b"
+    }
+  ],
+  "limits": "Static extraction only. Names do not prove availability, signatures, or successful execution."
+}
