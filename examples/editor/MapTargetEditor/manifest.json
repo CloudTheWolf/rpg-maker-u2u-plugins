@@ -1,0 +1,9 @@
+{
+  "id": "example.map-target-editor",
+  "name": "Map Target Parameter Editor",
+  "version": "0.1.0",
+  "main": "main.luau",
+  "author": "Example author",
+  "description": "Reconstructed resident registration/render/validation scaffold. Open intentionally cancels; picker result schema is unknown.",
+  "resident": true
+}
