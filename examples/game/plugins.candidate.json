@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Example",
+    "status": true,
+    "description": "Reconstructed lifecycle smoke test; not run in U2U",
+    "parameters": {}
+  }
+]
