@@ -1,0 +1,9 @@
+{
+  "id": "example.selection-inspector",
+  "name": "Selection Inspector",
+  "version": "0.1.0",
+  "main": "main.luau",
+  "author": "Example author",
+  "description": "Reconstructed read-only selection inspection example; not run in U2U.",
+  "resident": false
+}
