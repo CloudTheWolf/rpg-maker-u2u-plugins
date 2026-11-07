@@ -1,0 +1,2330 @@
+[
+  {
+    "literal": 1462,
+    "text": "'main' must resolve inside the plugin folder: '"
+  },
+  {
+    "literal": 9664,
+    "text": "NaN/inf is not supported in plugin state (at "
+  },
+  {
+    "literal": 15957,
+    "text": "[EditorPlugin/常駐]"
+  },
+  {
+    "literal": 15958,
+    "text": "[EditorPlugin/常駐] "
+  },
+  {
+    "literal": 15959,
+    "text": "[EditorPlugin/常駐] '"
+  },
+  {
+    "literal": 15960,
+    "text": "[EditorPlugin/常駐] hook '"
+  },
+  {
+    "literal": 15961,
+    "text": "[EditorPlugin/常駐] main の読み込みに失敗: "
+  },
+  {
+    "literal": 15962,
+    "text": "[EditorPlugin/常駐] shim の初期化に失敗しました: "
+  },
+  {
+    "literal": 15963,
+    "text": "[EditorPlugin/常駐] shim の読み込みに失敗しました: "
+  },
+  {
+    "literal": 15964,
+    "text": "[EditorPlugin/常駐] スタックを確保できませんでした ("
+  },
+  {
+    "literal": 15965,
+    "text": "[EditorPlugin/常駐] パラメータエディタの open が失敗しました: "
+  },
+  {
+    "literal": 15966,
+    "text": "[EditorPlugin/常駐] ピック UI の後始末で例外: "
+  },
+  {
+    "literal": 15967,
+    "text": "[EditorPlugin/常駐] モーダルの復帰で例外: "
+  },
+  {
+    "literal": 15968,
+    "text": "[EditorPlugin/常駐] 値の反映で例外: "
+  },
+  {
+    "literal": 15969,
+    "text": "[EditorPlugin/常駐] 常駐 VM が毒 (poisoned) になったため作り直します。"
+  },
+  {
+    "literal": 15970,
+    "text": "[EditorPlugin/常駐] 常駐 VM の構築に失敗しました: "
+  },
+  {
+    "literal": 15971,
+    "text": "[EditorPlugin/常駐] 既に別のパラメータエディタがピック待ちです。"
+  },
+  {
+    "literal": 15972,
+    "text": "[EditorPlugin/常駐] 段の退避で例外: "
+  },
+  {
+    "literal": 15973,
+    "text": "[EditorPlugin/常駐] 登録の巻き戻しに失敗しました: "
+  },
+  {
+    "literal": 15974,
+    "text": "[EditorPlugin/常駐] 破棄の前処理で例外: "
+  },
+  {
+    "literal": 15975,
+    "text": "[EditorPlugin]"
+  },
+  {
+    "literal": 15976,
+    "text": "[EditorPlugin] "
+  },
+  {
+    "literal": 15977,
+    "text": "[EditorPlugin] '"
+  },
+  {
+    "literal": 15978,
+    "text": "[EditorPlugin] main の読み込みに失敗: "
+  },
+  {
+    "literal": 15979,
+    "text": "[EditorPlugin] main スクリプトが見つかりません (移動/削除された可能性): "
+  },
+  {
+    "literal": 15980,
+    "text": "[EditorPlugin] mapId="
+  },
+  {
+    "literal": 15981,
+    "text": "[EditorPlugin] プロジェクトが閉じられたか切り替わったため実行を中止しました。メニューを開き直してください。"
+  },
+  {
+    "literal": 15982,
+    "text": "[EditorPlugin] ライブプレイ中はプラグインを実行できません。ライブプレイを終了してから実行してください。"
+  },
+  {
+    "literal": 15983,
+    "text": "[EditorPlugin] 不良プラグインは実行できません: "
+  },
+  {
+    "literal": 15984,
+    "text": "[EditorPlugin] 別のプラグインを実行中です。完了までお待ちください。"
+  },
+  {
+    "literal": 15985,
+    "text": "[EditorPlugin] 同梱 Editorプラグインの配置に失敗しました: "
+  },
+  {
+    "literal": 15986,
+    "text": "[EditorPlugin] 同梱 Editorプラグインを配置しました: "
+  },
+  {
+    "literal": 15987,
+    "text": "[EditorPlugin] 実行前提を満たしません: SV2 マップエディタが起動していません (live host / EditView 無し)。host V2 を起動しプロジェクトを開いてから実行してください。"
+  },
+  {
+    "literal": 15988,
+    "text": "[EditorPlugin] 実行前提を満たしません: マップが開かれていません (EditView.MapDataModel 無し)。"
+  },
+  {
+    "literal": 15989,
+    "text": "[EditorPlugin] 実行系が未結線です (配布 editor exe / U2UE 未ロード)。このビルドではプラグインを実行できません。"
+  },
+  {
+    "literal": 17536,
+    "text": "[ctx.config] ctx.config."
+  },
+  {
+    "literal": 17537,
+    "text": "[ctx.config] registerOption の labelKey を無視しました (plugin chunk の top-level 以外から登録されたため、どのプラグインの文字列表を引くか決まりません。label を表示します): key \""
+  },
+  {
+    "literal": 17538,
+    "text": "[ctx.config] registerOption を無視しました (先に登録された項目を残します): "
+  },
+  {
+    "literal": 17539,
+    "text": "[ctx.db] DB がまだ結線されていません (nil / 0 / 空 table を返します)。 ライブプレイ / プレイヤー起動の外でプラグインを走らせている可能性があります。"
+  },
+  {
+    "literal": 17540,
+    "text": "[ctx.i18n] ctx.i18n.setLocale は未結線です (plugin の top-level / game.boot の時点)。言語の切替はイベント (プラグインコマンド) や game.update 等の後続から行ってください (false を返します)"
+  },
+  {
+    "literal": 17541,
+    "text": "[ctx.i18n] ctx.i18n.setLocale('"
+  },
+  {
+    "literal": 17542,
+    "text": "[ctx.i18n] プラグイン '"
+  },
+  {
+    "literal": 17543,
+    "text": "[ctx.meta] DB がまだ結線されていません (nil / false / 空 table を返します)。"
+  },
+  {
+    "literal": 17544,
+    "text": "[ctx.sprite] ctx.sprite."
+  },
+  {
+    "literal": 17545,
+    "text": "[ctx.sprite] playSheet: シート '"
+  },
+  {
+    "literal": 17546,
+    "text": "[ctx.sprite] スプライトは同時に "
+  },
+  {
+    "literal": 17547,
+    "text": "[ctx.sprite] 画像 'img/pictures/"
+  },
+  {
+    "literal": 17548,
+    "text": "[ctx.text] ctx.text."
+  },
+  {
+    "literal": 17549,
+    "text": "[ctx.text] ctx.text.registerEscape('"
+  },
+  {
+    "literal": 17550,
+    "text": "[ctx.ui] ctx.ui."
+  },
+  {
+    "literal": 17551,
+    "text": "[ctx.ui] 窓は同時に "
+  },
+  {
+    "literal": 19456,
+    "text": "beginUndoGroup"
+  },
+  {
+    "literal": 19457,
+    "text": "beginUndoGroup: Undo グループが既に開いています (再入不可)"
+  },
+  {
+    "literal": 19458,
+    "text": "beginUndoGroup: partId を 1 つ以上渡してください (引数 table の配列部が空)"
+  },
+  {
+    "literal": 19459,
+    "text": "beginUndoGroup: partId 数 "
+  },
+  {
+    "literal": 19460,
+    "text": "beginUndoGroup["
+  },
+  {
+    "literal": 19461,
+    "text": "beginUndoGroup{\"iid:...\", \"iid:...\", label=\"...\"} の形で渡してください"
+  },
+  {
+    "literal": 19642,
+    "text": "buffer / non-UTF-8 string is not supported in plugin state (key \"$u2u\" at "
+  },
+  {
+    "literal": 20172,
+    "text": "ctx."
+  },
+  {
+    "literal": 20173,
+    "text": "ctx.action.create"
+  },
+  {
+    "literal": 20174,
+    "text": "ctx.action.create (no active battle)"
+  },
+  {
+    "literal": 20175,
+    "text": "ctx.action.enqueue"
+  },
+  {
+    "literal": 20176,
+    "text": "ctx.action.enqueue (no active battle)"
+  },
+  {
+    "literal": 20177,
+    "text": "ctx.action.get"
+  },
+  {
+    "literal": 20178,
+    "text": "ctx.actor.addParam"
+  },
+  {
+    "literal": 20179,
+    "text": "ctx.actor.addParam (actor progress state not integrated)"
+  },
+  {
+    "literal": 20180,
+    "text": "ctx.actor.addState"
+  },
+  {
+    "literal": 20181,
+    "text": "ctx.actor.addState (actor state not integrated)"
+  },
+  {
+    "literal": 20182,
+    "text": "ctx.actor.changeClass"
+  },
+  {
+    "literal": 20183,
+    "text": "ctx.actor.changeClass (actor progress state not integrated)"
+  },
+  {
+    "literal": 20184,
+    "text": "ctx.actor.forgetSkill"
+  },
+  {
+    "literal": 20185,
+    "text": "ctx.actor.forgetSkill (actor progress state not integrated)"
+  },
+  {
+    "literal": 20186,
+    "text": "ctx.actor.gainHp"
+  },
+  {
+    "literal": 20187,
+    "text": "ctx.actor.gainHp (actor progress state not integrated)"
+  },
+  {
+    "literal": 20188,
+    "text": "ctx.actor.gainMp"
+  },
+  {
+    "literal": 20189,
+    "text": "ctx.actor.gainMp (actor progress state not integrated)"
+  },
+  {
+    "literal": 20190,
+    "text": "ctx.actor.gainTp"
+  },
+  {
+    "literal": 20191,
+    "text": "ctx.actor.gainTp (actor progress state not integrated)"
+  },
+  {
+    "literal": 20192,
+    "text": "ctx.actor.getClassId"
+  },
+  {
+    "literal": 20193,
+    "text": "ctx.actor.getLevelUpMessages"
+  },
+  {
+    "literal": 20194,
+    "text": "ctx.actor.getName"
+  },
+  {
+    "literal": 20195,
+    "text": "ctx.actor.getSkills"
+  },
+  {
+    "literal": 20196,
+    "text": "ctx.actor.getStates"
+  },
+  {
+    "literal": 20197,
+    "text": "ctx.actor.hasSkill"
+  },
+  {
+    "literal": 20198,
+    "text": "ctx.actor.learnSkill"
+  },
+  {
+    "literal": 20199,
+    "text": "ctx.actor.learnSkill (actor progress state not integrated)"
+  },
+  {
+    "literal": 20200,
+    "text": "ctx.actor.recoverAll"
+  },
+  {
+    "literal": 20201,
+    "text": "ctx.actor.recoverAll (actor state not integrated)"
+  },
+  {
+    "literal": 20202,
+    "text": "ctx.actor.removeState"
+  },
+  {
+    "literal": 20203,
+    "text": "ctx.actor.removeState (actor state not integrated)"
+  },
+  {
+    "literal": 20204,
+    "text": "ctx.actor.setImages"
+  },
+  {
+    "literal": 20205,
+    "text": "ctx.actor.setImages (actor image state not integrated)"
+  },
+  {
+    "literal": 20206,
+    "text": "ctx.actor.setName"
+  },
+  {
+    "literal": 20207,
+    "text": "ctx.actor.setName (actor text state not integrated)"
+  },
+  {
+    "literal": 20208,
+    "text": "ctx.actor.setNickname"
+  },
+  {
+    "literal": 20209,
+    "text": "ctx.actor.setNickname (actor text state not integrated)"
+  },
+  {
+    "literal": 20210,
+    "text": "ctx.actor.setProfile"
+  },
+  {
+    "literal": 20211,
+    "text": "ctx.actor.setProfile (actor text state not integrated)"
+  },
+  {
+    "literal": 20212,
+    "text": "ctx.audio.fadeoutBgm"
+  },
+  {
+    "literal": 20213,
+    "text": "ctx.audio.fadeoutBgm (audio runtime not bound)"
+  },
+  {
+    "literal": 20214,
+    "text": "ctx.audio.fadeoutBgs"
+  },
+  {
+    "literal": 20215,
+    "text": "ctx.audio.fadeoutBgs (audio runtime not bound)"
+  },
+  {
+    "literal": 20216,
+    "text": "ctx.audio.playBgm"
+  },
+  {
+    "literal": 20217,
+    "text": "ctx.audio.playBgm (audio runtime not bound)"
+  },
+  {
+    "literal": 20218,
+    "text": "ctx.audio.playBgs"
+  },
+  {
+    "literal": 20219,
+    "text": "ctx.audio.playBgs (audio runtime not bound)"
+  },
+  {
+    "literal": 20220,
+    "text": "ctx.audio.playMe"
+  },
+  {
+    "literal": 20221,
+    "text": "ctx.audio.playMe (audio runtime not bound)"
+  },
+  {
+    "literal": 20222,
+    "text": "ctx.audio.playSe"
+  },
+  {
+    "literal": 20223,
+    "text": "ctx.audio.playSe (audio runtime not bound)"
+  },
+  {
+    "literal": 20224,
+    "text": "ctx.audio.resumeBgm"
+  },
+  {
+    "literal": 20225,
+    "text": "ctx.audio.resumeBgm (audio runtime not bound)"
+  },
+  {
+    "literal": 20226,
+    "text": "ctx.audio.saveBgm"
+  },
+  {
+    "literal": 20227,
+    "text": "ctx.audio.saveBgm (audio runtime not bound)"
+  },
+  {
+    "literal": 20228,
+    "text": "ctx.audio.setBattleBgm"
+  },
+  {
+    "literal": 20229,
+    "text": "ctx.audio.setBattleBgm (audio runtime not bound)"
+  },
+  {
+    "literal": 20230,
+    "text": "ctx.audio.setDefeatMe"
+  },
+  {
+    "literal": 20231,
+    "text": "ctx.audio.setDefeatMe (audio runtime not bound)"
+  },
+  {
+    "literal": 20232,
+    "text": "ctx.audio.setVictoryMe"
+  },
+  {
+    "literal": 20233,
+    "text": "ctx.audio.setVictoryMe (audio runtime not bound)"
+  },
+  {
+    "literal": 20234,
+    "text": "ctx.audio.stopSe"
+  },
+  {
+    "literal": 20235,
+    "text": "ctx.audio.stopSe (audio runtime not bound)"
+  },
+  {
+    "literal": 20236,
+    "text": "ctx.battle.abort"
+  },
+  {
+    "literal": 20237,
+    "text": "ctx.battle.abort (no active battle)"
+  },
+  {
+    "literal": 20238,
+    "text": "ctx.battle.advancePhase"
+  },
+  {
+    "literal": 20239,
+    "text": "ctx.battle.advancePhase (no active battle)"
+  },
+  {
+    "literal": 20240,
+    "text": "ctx.battle.appearEnemy"
+  },
+  {
+    "literal": 20241,
+    "text": "ctx.battle.changeBattleback"
+  },
+  {
+    "literal": 20242,
+    "text": "ctx.battle.getActionOrder"
+  },
+  {
+    "literal": 20243,
+    "text": "ctx.battle.getCommonEvent"
+  },
+  {
+    "literal": 20244,
+    "text": "ctx.battle.getItemInfo"
+  },
+  {
+    "literal": 20245,
+    "text": "ctx.battle.getItemInfo (item info seam not wired)"
+  },
+  {
+    "literal": 20246,
+    "text": "ctx.battle.getMembers"
+  },
+  {
+    "literal": 20247,
+    "text": "ctx.battle.getPhase"
+  },
+  {
+    "literal": 20248,
+    "text": "ctx.battle.getQueued"
+  },
+  {
+    "literal": 20249,
+    "text": "ctx.battle.getResult"
+  },
+  {
+    "literal": 20250,
+    "text": "ctx.battle.getRewards"
+  },
+  {
+    "literal": 20251,
+    "text": "ctx.battle.getSkillInfo"
+  },
+  {
+    "literal": 20252,
+    "text": "ctx.battle.getSkillInfo (skill info seam not wired)"
+  },
+  {
+    "literal": 20253,
+    "text": "ctx.battle.getStartAdvantage"
+  },
+  {
+    "literal": 20254,
+    "text": "ctx.battle.getStateInfo"
+  },
+  {
+    "literal": 20255,
+    "text": "ctx.battle.getStateInfo (state info seam not wired)"
+  },
+  {
+    "literal": 20256,
+    "text": "ctx.battle.getTroopPages"
+  },
+  {
+    "literal": 20257,
+    "text": "ctx.battle.getTurn"
+  },
+  {
+    "literal": 20258,
+    "text": "ctx.battle.isFastForward"
+  },
+  {
+    "literal": 20259,
+    "text": "ctx.battle.isLogBusy"
+  },
+  {
+    "literal": 20260,
+    "text": "ctx.battle.isStartMessagePending"
+  },
+  {
+    "literal": 20261,
+    "text": "ctx.battle.judge"
+  },
+  {
+    "literal": 20262,
+    "text": "ctx.battle.judge (no active battle)"
+  },
+  {
+    "literal": 20263,
+    "text": "ctx.battle.logEventTrace"
+  },
+  {
+    "literal": 20264,
+    "text": "ctx.battle.nextRandom"
+  },
+  {
+    "literal": 20265,
+    "text": "ctx.battle.nextRandom (no active battle)"
+  },
+  {
+    "literal": 20266,
+    "text": "ctx.battle.pushLog"
+  },
+  {
+    "literal": 20267,
+    "text": "ctx.battle.requestEscape"
+  },
+  {
+    "literal": 20268,
+    "text": "ctx.battle.requestEscape (no active battle)"
+  },
+  {
+    "literal": 20269,
+    "text": "ctx.battle.setFlow"
+  },
+  {
+    "literal": 20270,
+    "text": "ctx.battle.startEncounter"
+  },
+  {
+    "literal": 20271,
+    "text": "ctx.battle.startEncounter (host not bound)"
+  },
+  {
+    "literal": 20272,
+    "text": "ctx.battle.transformEnemy"
+  },
+  {
+    "literal": 20273,
+    "text": "ctx.battler.addParam"
+  },
+  {
+    "literal": 20274,
+    "text": "ctx.battler.addParam (battle store not integrated)"
+  },
+  {
+    "literal": 20275,
+    "text": "ctx.battler.addState"
+  },
+  {
+    "literal": 20276,
+    "text": "ctx.battler.addState (no active battle)"
+  },
+  {
+    "literal": 20277,
+    "text": "ctx.battler.applyDamage"
+  },
+  {
+    "literal": 20278,
+    "text": "ctx.battler.applyDamage (no active battle)"
+  },
+  {
+    "literal": 20279,
+    "text": "ctx.battler.applyMpDamage"
+  },
+  {
+    "literal": 20280,
+    "text": "ctx.battler.applyMpDamage (no active battle)"
+  },
+  {
+    "literal": 20281,
+    "text": "ctx.battler.gainTp"
+  },
+  {
+    "literal": 20282,
+    "text": "ctx.battler.gainTp (no active battle)"
+  },
+  {
+    "literal": 20283,
+    "text": "ctx.battler.getInfo"
+  },
+  {
+    "literal": 20284,
+    "text": "ctx.battler.getParam"
+  },
+  {
+    "literal": 20285,
+    "text": "ctx.battler.getStates"
+  },
+  {
+    "literal": 20286,
+    "text": "ctx.battler.getTraits"
+  },
+  {
+    "literal": 20287,
+    "text": "ctx.battler.removeState"
+  },
+  {
+    "literal": 20288,
+    "text": "ctx.battler.removeState (no active battle)"
+  },
+  {
+    "literal": 20289,
+    "text": "ctx.battler.setGuard"
+  },
+  {
+    "literal": 20290,
+    "text": "ctx.battler.setGuard (no active battle)"
+  },
+  {
+    "literal": 20291,
+    "text": "ctx.command (no active event)"
+  },
+  {
+    "literal": 20292,
+    "text": "ctx.command."
+  },
+  {
+    "literal": 20293,
+    "text": "ctx.command.advance"
+  },
+  {
+    "literal": 20294,
+    "text": "ctx.command.branch"
+  },
+  {
+    "literal": 20295,
+    "text": "ctx.command.breakLoop"
+  },
+  {
+    "literal": 20296,
+    "text": "ctx.command.breakLoop (no active event)"
+  },
+  {
+    "literal": 20297,
+    "text": "ctx.command.callCommonEvent"
+  },
+  {
+    "literal": 20298,
+    "text": "ctx.command.callCommonEvent (no active event)"
+  },
+  {
+    "literal": 20299,
+    "text": "ctx.command.clearChoiceBranch"
+  },
+  {
+    "literal": 20300,
+    "text": "ctx.command.current"
+  },
+  {
+    "literal": 20301,
+    "text": "ctx.command.endFrameWait"
+  },
+  {
+    "literal": 20302,
+    "text": "ctx.command.exitList"
+  },
+  {
+    "literal": 20303,
+    "text": "ctx.command.exitList (no active event)"
+  },
+  {
+    "literal": 20304,
+    "text": "ctx.command.finish"
+  },
+  {
+    "literal": 20305,
+    "text": "ctx.command.frameWaitRemaining"
+  },
+  {
+    "literal": 20306,
+    "text": "ctx.command.frameWaiting"
+  },
+  {
+    "literal": 20307,
+    "text": "ctx.command.getChoiceBranch"
+  },
+  {
+    "literal": 20308,
+    "text": "ctx.command.getEventUid"
+  },
+  {
+    "literal": 20309,
+    "text": "ctx.command.isOnCurrentMap"
+  },
+  {
+    "literal": 20310,
+    "text": "ctx.command.jumpToLabel"
+  },
+  {
+    "literal": 20311,
+    "text": "ctx.command.jumpToLabel (no active event)"
+  },
+  {
+    "literal": 20312,
+    "text": "ctx.command.repeatLoop"
+  },
+  {
+    "literal": 20313,
+    "text": "ctx.command.repeatLoop (no active event)"
+  },
+  {
+    "literal": 20314,
+    "text": "ctx.command.reserveCommonEvent"
+  },
+  {
+    "literal": 20315,
+    "text": "ctx.command.setChoiceBranch"
+  },
+  {
+    "literal": 20316,
+    "text": "ctx.command.startFrameWait"
+  },
+  {
+    "literal": 20317,
+    "text": "ctx.command.startFrameWait (no active event)"
+  },
+  {
+    "literal": 20318,
+    "text": "ctx.command.yieldFrame"
+  },
+  {
+    "literal": 20319,
+    "text": "ctx.command.yieldFrame (no active event)"
+  },
+  {
+    "literal": 20320,
+    "text": "ctx.config.get"
+  },
+  {
+    "literal": 20321,
+    "text": "ctx.config.registerOption"
+  },
+  {
+    "literal": 20322,
+    "text": "ctx.config.set"
+  },
+  {
+    "literal": 20323,
+    "text": "ctx.db.count"
+  },
+  {
+    "literal": 20324,
+    "text": "ctx.db.getActor"
+  },
+  {
+    "literal": 20325,
+    "text": "ctx.db.getArmor"
+  },
+  {
+    "literal": 20326,
+    "text": "ctx.db.getClass"
+  },
+  {
+    "literal": 20327,
+    "text": "ctx.db.getCommonEvent"
+  },
+  {
+    "literal": 20328,
+    "text": "ctx.db.getCustom"
+  },
+  {
+    "literal": 20329,
+    "text": "ctx.db.getEnemy"
+  },
+  {
+    "literal": 20330,
+    "text": "ctx.db.getItem"
+  },
+  {
+    "literal": 20331,
+    "text": "ctx.db.getSkill"
+  },
+  {
+    "literal": 20332,
+    "text": "ctx.db.getState"
+  },
+  {
+    "literal": 20333,
+    "text": "ctx.db.getSystem"
+  },
+  {
+    "literal": 20334,
+    "text": "ctx.db.getTroop"
+  },
+  {
+    "literal": 20335,
+    "text": "ctx.db.getWeapon"
+  },
+  {
+    "literal": 20336,
+    "text": "ctx.db.listCustom"
+  },
+  {
+    "literal": 20337,
+    "text": "ctx.editor.__beginPick"
+  },
+  {
+    "literal": 20338,
+    "text": "ctx.editor.__reportHandlerError"
+  },
+  {
+    "literal": 20339,
+    "text": "ctx.editor.beginUndoGroup"
+  },
+  {
+    "literal": 20340,
+    "text": "ctx.editor.checkLuau"
+  },
+  {
+    "literal": 20341,
+    "text": "ctx.editor.endUndoGroup"
+  },
+  {
+    "literal": 20342,
+    "text": "ctx.editor.getCurrentMap"
+  },
+  {
+    "literal": 20343,
+    "text": "ctx.editor.getMapInfo"
+  },
+  {
+    "literal": 20344,
+    "text": "ctx.editor.getSelection"
+  },
+  {
+    "literal": 20345,
+    "text": "ctx.editor.listMaps"
+  },
+  {
+    "literal": 20346,
+    "text": "ctx.editor.listParts"
+  },
+  {
+    "literal": 20347,
+    "text": "ctx.editor.listPresets"
+  },
+  {
+    "literal": 20348,
+    "text": "ctx.editor.log"
+  },
+  {
+    "literal": 20349,
+    "text": "ctx.editor.openMap"
+  },
+  {
+    "literal": 20350,
+    "text": "ctx.editor.paintGround"
+  },
+  {
+    "literal": 20351,
+    "text": "ctx.editor.paintGroundCells"
+  },
+  {
+    "literal": 20352,
+    "text": "ctx.editor.paintGroundRect"
+  },
+  {
+    "literal": 20353,
+    "text": "ctx.editor.placePart"
+  },
+  {
+    "literal": 20354,
+    "text": "ctx.editor.placeParts"
+  },
+  {
+    "literal": 20355,
+    "text": "ctx.editor.removePart"
+  },
+  {
+    "literal": 20356,
+    "text": "ctx.editor.setPartFlags"
+  },
+  {
+    "literal": 20357,
+    "text": "ctx.editor.setPartSubTileOffset"
+  },
+  {
+    "literal": 20358,
+    "text": "ctx.effect.beginBattlerMotion"
+  },
+  {
+    "literal": 20359,
+    "text": "ctx.effect.beginBattlerMove"
+  },
+  {
+    "literal": 20360,
+    "text": "ctx.effect.isBattleAnimationPlaying"
+  },
+  {
+    "literal": 20361,
+    "text": "ctx.effect.isBattlerMoving"
+  },
+  {
+    "literal": 20362,
+    "text": "ctx.effect.isMotionPlaying"
+  },
+  {
+    "literal": 20363,
+    "text": "ctx.effect.showAnimation"
+  },
+  {
+    "literal": 20364,
+    "text": "ctx.effect.showAnimation (effect runtime not bound)"
+  },
+  {
+    "literal": 20365,
+    "text": "ctx.effect.showBalloon"
+  },
+  {
+    "literal": 20366,
+    "text": "ctx.effect.showBalloon (effect runtime not bound)"
+  },
+  {
+    "literal": 20367,
+    "text": "ctx.effect.showBattleAnimation"
+  },
+  {
+    "literal": 20368,
+    "text": "ctx.event.callEvent"
+  },
+  {
+    "literal": 20369,
+    "text": "ctx.event.callEvent (event runtime not bound)"
+  },
+  {
+    "literal": 20370,
+    "text": "ctx.event.despawn"
+  },
+  {
+    "literal": 20371,
+    "text": "ctx.event.despawn (event runtime not bound)"
+  },
+  {
+    "literal": 20372,
+    "text": "ctx.event.erase"
+  },
+  {
+    "literal": 20373,
+    "text": "ctx.event.erase (event runtime not bound)"
+  },
+  {
+    "literal": 20374,
+    "text": "ctx.event.findPlacement"
+  },
+  {
+    "literal": 20375,
+    "text": "ctx.event.getInfo"
+  },
+  {
+    "literal": 20376,
+    "text": "ctx.event.getSelfVar"
+  },
+  {
+    "literal": 20377,
+    "text": "ctx.event.setControlled"
+  },
+  {
+    "literal": 20378,
+    "text": "ctx.event.setControlled (event runtime not bound)"
+  },
+  {
+    "literal": 20379,
+    "text": "ctx.event.setDirection"
+  },
+  {
+    "literal": 20380,
+    "text": "ctx.event.setDirection (event runtime not bound)"
+  },
+  {
+    "literal": 20381,
+    "text": "ctx.event.setPosition"
+  },
+  {
+    "literal": 20382,
+    "text": "ctx.event.setPosition (event runtime not bound)"
+  },
+  {
+    "literal": 20383,
+    "text": "ctx.event.setSelfVar"
+  },
+  {
+    "literal": 20384,
+    "text": "ctx.event.setSelfVar (event runtime not bound)"
+  },
+  {
+    "literal": 20385,
+    "text": "ctx.event.setVisible"
+  },
+  {
+    "literal": 20386,
+    "text": "ctx.event.setVisible (event runtime not bound)"
+  },
+  {
+    "literal": 20387,
+    "text": "ctx.event.spawn"
+  },
+  {
+    "literal": 20388,
+    "text": "ctx.event.spawn (event runtime not bound)"
+  },
+  {
+    "literal": 20389,
+    "text": "ctx.event.step"
+  },
+  {
+    "literal": 20390,
+    "text": "ctx.event.step (event runtime not bound)"
+  },
+  {
+    "literal": 20391,
+    "text": "ctx.game.evalLuau"
+  },
+  {
+    "literal": 20392,
+    "text": "ctx.game.evalLuau (game state not integrated)"
+  },
+  {
+    "literal": 20393,
+    "text": "ctx.game.evaluateCondition"
+  },
+  {
+    "literal": 20394,
+    "text": "ctx.game.evaluateScript"
+  },
+  {
+    "literal": 20395,
+    "text": "ctx.game.evaluateScript (game state not integrated)"
+  },
+  {
+    "literal": 20396,
+    "text": "ctx.game.getActorParam"
+  },
+  {
+    "literal": 20397,
+    "text": "ctx.game.getActorParam (game state not integrated)"
+  },
+  {
+    "literal": 20398,
+    "text": "ctx.game.getLastActionData"
+  },
+  {
+    "literal": 20399,
+    "text": "ctx.game.getSelfSwitch"
+  },
+  {
+    "literal": 20400,
+    "text": "ctx.game.getStat"
+  },
+  {
+    "literal": 20401,
+    "text": "ctx.game.getStat (game state not integrated)"
+  },
+  {
+    "literal": 20402,
+    "text": "ctx.game.getSwitch"
+  },
+  {
+    "literal": 20403,
+    "text": "ctx.game.getSwitch (game state not integrated)"
+  },
+  {
+    "literal": 20404,
+    "text": "ctx.game.getTimerSeconds"
+  },
+  {
+    "literal": 20405,
+    "text": "ctx.game.getTimerSeconds (game state not integrated)"
+  },
+  {
+    "literal": 20406,
+    "text": "ctx.game.getVariable"
+  },
+  {
+    "literal": 20407,
+    "text": "ctx.game.getVariable (game state not integrated)"
+  },
+  {
+    "literal": 20408,
+    "text": "ctx.game.isTimerRunning"
+  },
+  {
+    "literal": 20409,
+    "text": "ctx.game.isTimerRunning (game state not integrated)"
+  },
+  {
+    "literal": 20410,
+    "text": "ctx.game.random"
+  },
+  {
+    "literal": 20411,
+    "text": "ctx.game.random (game state not integrated)"
+  },
+  {
+    "literal": 20412,
+    "text": "ctx.game.random is not allowed inside a script operand expression"
+  },
+  {
+    "literal": 20413,
+    "text": "ctx.game.runScript"
+  },
+  {
+    "literal": 20414,
+    "text": "ctx.game.runScript (game state not integrated)"
+  },
+  {
+    "literal": 20415,
+    "text": "ctx.game.setEncounterEnabled"
+  },
+  {
+    "literal": 20416,
+    "text": "ctx.game.setEncounterEnabled (system flags not integrated)"
+  },
+  {
+    "literal": 20417,
+    "text": "ctx.game.setFormationEnabled"
+  },
+  {
+    "literal": 20418,
+    "text": "ctx.game.setFormationEnabled (system flags not integrated)"
+  },
+  {
+    "literal": 20419,
+    "text": "ctx.game.setLastActionData"
+  },
+  {
+    "literal": 20420,
+    "text": "ctx.game.setMenuEnabled"
+  },
+  {
+    "literal": 20421,
+    "text": "ctx.game.setMenuEnabled (system flags not integrated)"
+  },
+  {
+    "literal": 20422,
+    "text": "ctx.game.setSaveEnabled"
+  },
+  {
+    "literal": 20423,
+    "text": "ctx.game.setSaveEnabled (system flags not integrated)"
+  },
+  {
+    "literal": 20424,
+    "text": "ctx.game.setSelfSwitch"
+  },
+  {
+    "literal": 20425,
+    "text": "ctx.game.setSelfSwitch (game state not integrated)"
+  },
+  {
+    "literal": 20426,
+    "text": "ctx.game.setSwitch"
+  },
+  {
+    "literal": 20427,
+    "text": "ctx.game.setSwitch (game state not integrated)"
+  },
+  {
+    "literal": 20428,
+    "text": "ctx.game.setVariable"
+  },
+  {
+    "literal": 20429,
+    "text": "ctx.game.setVariable (game state not integrated)"
+  },
+  {
+    "literal": 20430,
+    "text": "ctx.game.setWindowTone"
+  },
+  {
+    "literal": 20431,
+    "text": "ctx.game.setWindowTone (system flags not integrated)"
+  },
+  {
+    "literal": 20432,
+    "text": "ctx.game.startTimer"
+  },
+  {
+    "literal": 20433,
+    "text": "ctx.game.startTimer (game state not integrated)"
+  },
+  {
+    "literal": 20434,
+    "text": "ctx.game.stopTimer"
+  },
+  {
+    "literal": 20435,
+    "text": "ctx.game.stopTimer (game state not integrated)"
+  },
+  {
+    "literal": 20436,
+    "text": "ctx.i18n.baseLocale"
+  },
+  {
+    "literal": 20437,
+    "text": "ctx.i18n.locale"
+  },
+  {
+    "literal": 20438,
+    "text": "ctx.i18n.locales"
+  },
+  {
+    "literal": 20439,
+    "text": "ctx.i18n.setLocale"
+  },
+  {
+    "literal": 20440,
+    "text": "ctx.i18n.table"
+  },
+  {
+    "literal": 20441,
+    "text": "ctx.i18n.table() は plugin chunk の top-level で呼ぶこと (`local L = ctx.i18n.table()`)。hook の handler の中や同梱コアからは呼べません"
+  },
+  {
+    "literal": 20442,
+    "text": "ctx.i18n.table().has"
+  },
+  {
+    "literal": 20443,
+    "text": "ctx.i18n.table().t"
+  },
+  {
+    "literal": 20444,
+    "text": "ctx.input.getKey"
+  },
+  {
+    "literal": 20445,
+    "text": "ctx.input.getKeyDown"
+  },
+  {
+    "literal": 20446,
+    "text": "ctx.input.isButton"
+  },
+  {
+    "literal": 20447,
+    "text": "ctx.input.poll"
+  },
+  {
+    "literal": 20448,
+    "text": "ctx.inventory.enumerateItemIds"
+  },
+  {
+    "literal": 20449,
+    "text": "ctx.inventory.enumerateItems (inventory state not integrated)"
+  },
+  {
+    "literal": 20450,
+    "text": "ctx.inventory.gainArmor"
+  },
+  {
+    "literal": 20451,
+    "text": "ctx.inventory.gainArmor (inventory state not integrated)"
+  },
+  {
+    "literal": 20452,
+    "text": "ctx.inventory.gainItem"
+  },
+  {
+    "literal": 20453,
+    "text": "ctx.inventory.gainItem (inventory state not integrated)"
+  },
+  {
+    "literal": 20454,
+    "text": "ctx.inventory.gainWeapon"
+  },
+  {
+    "literal": 20455,
+    "text": "ctx.inventory.gainWeapon (inventory state not integrated)"
+  },
+  {
+    "literal": 20456,
+    "text": "ctx.inventory.getArmorCount"
+  },
+  {
+    "literal": 20457,
+    "text": "ctx.inventory.getArmorCount (inventory state not integrated)"
+  },
+  {
+    "literal": 20458,
+    "text": "ctx.inventory.getItemCount"
+  },
+  {
+    "literal": 20459,
+    "text": "ctx.inventory.getItemCount (inventory state not integrated)"
+  },
+  {
+    "literal": 20460,
+    "text": "ctx.inventory.getWeaponCount"
+  },
+  {
+    "literal": 20461,
+    "text": "ctx.inventory.getWeaponCount (inventory state not integrated)"
+  },
+  {
+    "literal": 20462,
+    "text": "ctx.manifest.getCommandDef"
+  },
+  {
+    "literal": 20463,
+    "text": "ctx.manifest.getManifest"
+  },
+  {
+    "literal": 20464,
+    "text": "ctx.map.changeParallax"
+  },
+  {
+    "literal": 20465,
+    "text": "ctx.map.changeParallax (no map loaded)"
+  },
+  {
+    "literal": 20466,
+    "text": "ctx.map.changeTilesetFamily"
+  },
+  {
+    "literal": 20467,
+    "text": "ctx.map.changeTilesetFamily (no map loaded)"
+  },
+  {
+    "literal": 20468,
+    "text": "ctx.map.forceMoveRoute"
+  },
+  {
+    "literal": 20469,
+    "text": "ctx.map.getCurrentMap"
+  },
+  {
+    "literal": 20470,
+    "text": "ctx.map.getEvent"
+  },
+  {
+    "literal": 20471,
+    "text": "ctx.map.getLocationInfo"
+  },
+  {
+    "literal": 20472,
+    "text": "ctx.map.getOnOffVehicle"
+  },
+  {
+    "literal": 20473,
+    "text": "ctx.map.getPassability"
+  },
+  {
+    "literal": 20474,
+    "text": "ctx.map.getPassability (no map loaded)"
+  },
+  {
+    "literal": 20475,
+    "text": "ctx.map.requestTransfer"
+  },
+  {
+    "literal": 20476,
+    "text": "ctx.map.resolveMapGuid"
+  },
+  {
+    "literal": 20477,
+    "text": "ctx.map.resolveMapId"
+  },
+  {
+    "literal": 20478,
+    "text": "ctx.map.setEventLocation"
+  },
+  {
+    "literal": 20479,
+    "text": "ctx.map.setNameDisplay"
+  },
+  {
+    "literal": 20480,
+    "text": "ctx.map.setVehicleBgm"
+  },
+  {
+    "literal": 20481,
+    "text": "ctx.map.setVehicleBgm (vehicles not integrated)"
+  },
+  {
+    "literal": 20482,
+    "text": "ctx.map.setVehicleImage"
+  },
+  {
+    "literal": 20483,
+    "text": "ctx.map.setVehicleImage (vehicles not integrated)"
+  },
+  {
+    "literal": 20484,
+    "text": "ctx.map.setVehicleLocation"
+  },
+  {
+    "literal": 20485,
+    "text": "ctx.map.setVehicleLocation (vehicles not integrated)"
+  },
+  {
+    "literal": 20486,
+    "text": "ctx.map.swapEventLocation"
+  },
+  {
+    "literal": 20487,
+    "text": "ctx.meta.get"
+  },
+  {
+    "literal": 20488,
+    "text": "ctx.meta.has"
+  },
+  {
+    "literal": 20489,
+    "text": "ctx.meta.list"
+  },
+  {
+    "literal": 20490,
+    "text": "ctx.parameter.get"
+  },
+  {
+    "literal": 20491,
+    "text": "ctx.parameter.getDefault"
+  },
+  {
+    "literal": 20492,
+    "text": "ctx.party.addExp"
+  },
+  {
+    "literal": 20493,
+    "text": "ctx.party.addExp (party state not integrated)"
+  },
+  {
+    "literal": 20494,
+    "text": "ctx.party.addGold"
+  },
+  {
+    "literal": 20495,
+    "text": "ctx.party.addGold (party state not integrated)"
+  },
+  {
+    "literal": 20496,
+    "text": "ctx.party.changeEquip"
+  },
+  {
+    "literal": 20497,
+    "text": "ctx.party.changeEquip (party state not integrated)"
+  },
+  {
+    "literal": 20498,
+    "text": "ctx.party.changeMember"
+  },
+  {
+    "literal": 20499,
+    "text": "ctx.party.changeMember (party state not integrated)"
+  },
+  {
+    "literal": 20500,
+    "text": "ctx.party.gainExp"
+  },
+  {
+    "literal": 20501,
+    "text": "ctx.party.gainExp (party state not integrated)"
+  },
+  {
+    "literal": 20502,
+    "text": "ctx.party.gainGold"
+  },
+  {
+    "literal": 20503,
+    "text": "ctx.party.gainGold (party state not integrated)"
+  },
+  {
+    "literal": 20504,
+    "text": "ctx.party.getActorExp"
+  },
+  {
+    "literal": 20505,
+    "text": "ctx.party.getActorExp (party state not integrated)"
+  },
+  {
+    "literal": 20506,
+    "text": "ctx.party.getActorLevel"
+  },
+  {
+    "literal": 20507,
+    "text": "ctx.party.getActorLevel (party state not integrated)"
+  },
+  {
+    "literal": 20508,
+    "text": "ctx.party.getActorMaxLevel"
+  },
+  {
+    "literal": 20509,
+    "text": "ctx.party.getEquips"
+  },
+  {
+    "literal": 20510,
+    "text": "ctx.party.getEquips (party state not integrated)"
+  },
+  {
+    "literal": 20511,
+    "text": "ctx.party.getGold"
+  },
+  {
+    "literal": 20512,
+    "text": "ctx.party.getGold (party state not integrated)"
+  },
+  {
+    "literal": 20513,
+    "text": "ctx.party.getMembers"
+  },
+  {
+    "literal": 20514,
+    "text": "ctx.party.getMembers (party state not integrated)"
+  },
+  {
+    "literal": 20515,
+    "text": "ctx.party.getRequiredExp"
+  },
+  {
+    "literal": 20516,
+    "text": "ctx.party.getRequiredExp (party state not integrated)"
+  },
+  {
+    "literal": 20517,
+    "text": "ctx.party.setActorLevel"
+  },
+  {
+    "literal": 20518,
+    "text": "ctx.party.setActorLevel (party state not integrated)"
+  },
+  {
+    "literal": 20519,
+    "text": "ctx.player.gatherFollowers"
+  },
+  {
+    "literal": 20520,
+    "text": "ctx.player.gatherFollowers (player runtime not bound)"
+  },
+  {
+    "literal": 20521,
+    "text": "ctx.player.getDirection"
+  },
+  {
+    "literal": 20522,
+    "text": "ctx.player.getInfo"
+  },
+  {
+    "literal": 20523,
+    "text": "ctx.player.getVehicleKind"
+  },
+  {
+    "literal": 20524,
+    "text": "ctx.player.jump"
+  },
+  {
+    "literal": 20525,
+    "text": "ctx.player.jump (player runtime not bound)"
+  },
+  {
+    "literal": 20526,
+    "text": "ctx.player.jump is not allowed while riding a vehicle"
+  },
+  {
+    "literal": 20527,
+    "text": "ctx.player.setDirection"
+  },
+  {
+    "literal": 20528,
+    "text": "ctx.player.setDirection (player runtime not bound)"
+  },
+  {
+    "literal": 20529,
+    "text": "ctx.player.setFollowersVisible"
+  },
+  {
+    "literal": 20530,
+    "text": "ctx.player.setFollowersVisible (player runtime not bound)"
+  },
+  {
+    "literal": 20531,
+    "text": "ctx.player.setMoveSpeed"
+  },
+  {
+    "literal": 20532,
+    "text": "ctx.player.setMoveSpeed (player runtime not bound)"
+  },
+  {
+    "literal": 20533,
+    "text": "ctx.player.setPosition"
+  },
+  {
+    "literal": 20534,
+    "text": "ctx.player.setPosition (player runtime not bound)"
+  },
+  {
+    "literal": 20535,
+    "text": "ctx.player.setPosition is not allowed while riding a vehicle"
+  },
+  {
+    "literal": 20536,
+    "text": "ctx.player.setThrough"
+  },
+  {
+    "literal": 20537,
+    "text": "ctx.player.setThrough (player runtime not bound)"
+  },
+  {
+    "literal": 20538,
+    "text": "ctx.player.setTransparent"
+  },
+  {
+    "literal": 20539,
+    "text": "ctx.player.setTransparent (player runtime not bound)"
+  },
+  {
+    "literal": 20540,
+    "text": "ctx.plugin.getState"
+  },
+  {
+    "literal": 20541,
+    "text": "ctx.plugin.parameters"
+  },
+  {
+    "literal": 20542,
+    "text": "ctx.plugin.parseValue"
+  },
+  {
+    "literal": 20543,
+    "text": "ctx.plugin.setState"
+  },
+  {
+    "literal": 20544,
+    "text": "ctx.plugin.typedParameters"
+  },
+  {
+    "literal": 20545,
+    "text": "ctx.scene.back"
+  },
+  {
+    "literal": 20546,
+    "text": "ctx.scene.current"
+  },
+  {
+    "literal": 20547,
+    "text": "ctx.scene.goto"
+  },
+  {
+    "literal": 20548,
+    "text": "ctx.scene.openMenu"
+  },
+  {
+    "literal": 20549,
+    "text": "ctx.scene.openSaveScreen"
+  },
+  {
+    "literal": 20550,
+    "text": "ctx.scene.openShop"
+  },
+  {
+    "literal": 20551,
+    "text": "ctx.screen.applyBloom"
+  },
+  {
+    "literal": 20552,
+    "text": "ctx.screen.applyBloom (post-effect runtime not bound)"
+  },
+  {
+    "literal": 20553,
+    "text": "ctx.screen.applyBlur"
+  },
+  {
+    "literal": 20554,
+    "text": "ctx.screen.applyBlur (post-effect runtime not bound)"
+  },
+  {
+    "literal": 20555,
+    "text": "ctx.screen.applyFill"
+  },
+  {
+    "literal": 20556,
+    "text": "ctx.screen.applyFill (post-effect runtime not bound)"
+  },
+  {
+    "literal": 20557,
+    "text": "ctx.screen.applyGlitch"
+  },
+  {
+    "literal": 20558,
+    "text": "ctx.screen.applyGlitch (post-effect runtime not bound)"
+  },
+  {
+    "literal": 20559,
+    "text": "ctx.screen.applyPixelate"
+  },
+  {
+    "literal": 20560,
+    "text": "ctx.screen.applyPixelate (post-effect runtime not bound)"
+  },
+  {
+    "literal": 20561,
+    "text": "ctx.screen.erasePicture"
+  },
+  {
+    "literal": 20562,
+    "text": "ctx.screen.erasePicture (picture runtime not bound)"
+  },
+  {
+    "literal": 20563,
+    "text": "ctx.screen.fadeIn"
+  },
+  {
+    "literal": 20564,
+    "text": "ctx.screen.fadeIn (screen fader not bound)"
+  },
+  {
+    "literal": 20565,
+    "text": "ctx.screen.fadeOut"
+  },
+  {
+    "literal": 20566,
+    "text": "ctx.screen.fadeOut (screen fader not bound)"
+  },
+  {
+    "literal": 20567,
+    "text": "ctx.screen.flashScreen"
+  },
+  {
+    "literal": 20568,
+    "text": "ctx.screen.flashScreen (screen state runtime not bound)"
+  },
+  {
+    "literal": 20569,
+    "text": "ctx.screen.isFading"
+  },
+  {
+    "literal": 20570,
+    "text": "ctx.screen.isPictureWaiting"
+  },
+  {
+    "literal": 20571,
+    "text": "ctx.screen.isPostEffectWaiting"
+  },
+  {
+    "literal": 20572,
+    "text": "ctx.screen.isVideoPlaying"
+  },
+  {
+    "literal": 20573,
+    "text": "ctx.screen.movePicture"
+  },
+  {
+    "literal": 20574,
+    "text": "ctx.screen.movePicture (picture runtime not bound)"
+  },
+  {
+    "literal": 20575,
+    "text": "ctx.screen.playVideo"
+  },
+  {
+    "literal": 20576,
+    "text": "ctx.screen.playVideo (video runtime not bound)"
+  },
+  {
+    "literal": 20577,
+    "text": "ctx.screen.removePostEffect"
+  },
+  {
+    "literal": 20578,
+    "text": "ctx.screen.removePostEffect (post-effect runtime not bound)"
+  },
+  {
+    "literal": 20579,
+    "text": "ctx.screen.rotatePicture"
+  },
+  {
+    "literal": 20580,
+    "text": "ctx.screen.rotatePicture (picture runtime not bound)"
+  },
+  {
+    "literal": 20581,
+    "text": "ctx.screen.scrollMap"
+  },
+  {
+    "literal": 20582,
+    "text": "ctx.screen.scrollMap (camera runtime not bound)"
+  },
+  {
+    "literal": 20583,
+    "text": "ctx.screen.setBattlebackMap"
+  },
+  {
+    "literal": 20584,
+    "text": "ctx.screen.setBattlebackMap (screen not bound)"
+  },
+  {
+    "literal": 20585,
+    "text": "ctx.screen.setCameraAngle"
+  },
+  {
+    "literal": 20586,
+    "text": "ctx.screen.setCameraAngle (camera runtime not bound)"
+  },
+  {
+    "literal": 20587,
+    "text": "ctx.screen.setCameraAnglePreset"
+  },
+  {
+    "literal": 20588,
+    "text": "ctx.screen.setCameraAnglePreset (camera runtime not bound)"
+  },
+  {
+    "literal": 20589,
+    "text": "ctx.screen.setCameraFocus"
+  },
+  {
+    "literal": 20590,
+    "text": "ctx.screen.setCameraFocus (camera runtime not bound)"
+  },
+  {
+    "literal": 20591,
+    "text": "ctx.screen.setCameraZoom"
+  },
+  {
+    "literal": 20592,
+    "text": "ctx.screen.setCameraZoom (camera runtime not bound)"
+  },
+  {
+    "literal": 20593,
+    "text": "ctx.screen.setPictureText"
+  },
+  {
+    "literal": 20594,
+    "text": "ctx.screen.setPictureText (picture runtime not bound)"
+  },
+  {
+    "literal": 20595,
+    "text": "ctx.screen.setScreenEffect"
+  },
+  {
+    "literal": 20596,
+    "text": "ctx.screen.setScreenEffect (screen effect runtime not bound)"
+  },
+  {
+    "literal": 20597,
+    "text": "ctx.screen.setWeather"
+  },
+  {
+    "literal": 20598,
+    "text": "ctx.screen.setWeather (screen state runtime not bound)"
+  },
+  {
+    "literal": 20599,
+    "text": "ctx.screen.shakeScreen"
+  },
+  {
+    "literal": 20600,
+    "text": "ctx.screen.shakeScreen (screen state runtime not bound)"
+  },
+  {
+    "literal": 20601,
+    "text": "ctx.screen.showPicture"
+  },
+  {
+    "literal": 20602,
+    "text": "ctx.screen.showPicture (picture runtime not bound)"
+  },
+  {
+    "literal": 20603,
+    "text": "ctx.screen.startTimeOfDayTransition"
+  },
+  {
+    "literal": 20604,
+    "text": "ctx.screen.startTimeOfDayTransition (time-of-day runtime not bound)"
+  },
+  {
+    "literal": 20605,
+    "text": "ctx.screen.tintPicture"
+  },
+  {
+    "literal": 20606,
+    "text": "ctx.screen.tintPicture (picture runtime not bound)"
+  },
+  {
+    "literal": 20607,
+    "text": "ctx.screen.tintScreen"
+  },
+  {
+    "literal": 20608,
+    "text": "ctx.screen.tintScreen (screen state runtime not bound)"
+  },
+  {
+    "literal": 20609,
+    "text": "ctx.sprite.clear"
+  },
+  {
+    "literal": 20610,
+    "text": "ctx.sprite.create"
+  },
+  {
+    "literal": 20611,
+    "text": "ctx.sprite.destroy"
+  },
+  {
+    "literal": 20612,
+    "text": "ctx.sprite.drawGauge"
+  },
+  {
+    "literal": 20613,
+    "text": "ctx.sprite.drawText"
+  },
+  {
+    "literal": 20614,
+    "text": "ctx.sprite.fillRect"
+  },
+  {
+    "literal": 20615,
+    "text": "ctx.sprite.hitTest"
+  },
+  {
+    "literal": 20616,
+    "text": "ctx.sprite.playSheet"
+  },
+  {
+    "literal": 20617,
+    "text": "ctx.sprite.set"
+  },
+  {
+    "literal": 20618,
+    "text": "ctx.sprite.setMany"
+  },
+  {
+    "literal": 20619,
+    "text": "ctx.sprite.stopSheet"
+  },
+  {
+    "literal": 20620,
+    "text": "ctx.sprite.tween"
+  },
+  {
+    "literal": 20621,
+    "text": "ctx.text.convert"
+  },
+  {
+    "literal": 20622,
+    "text": "ctx.text.convertRich"
+  },
+  {
+    "literal": 20623,
+    "text": "ctx.text.registerEscape"
+  },
+  {
+    "literal": 20624,
+    "text": "ctx.ui.activateList"
+  },
+  {
+    "literal": 20625,
+    "text": "ctx.ui.addChoiceText"
+  },
+  {
+    "literal": 20626,
+    "text": "ctx.ui.addScrollTextLine"
+  },
+  {
+    "literal": 20627,
+    "text": "ctx.ui.advance"
+  },
+  {
+    "literal": 20628,
+    "text": "ctx.ui.advance (no active message)"
+  },
+  {
+    "literal": 20629,
+    "text": "ctx.ui.appendLine"
+  },
+  {
+    "literal": 20630,
+    "text": "ctx.ui.appendLine (no active message)"
+  },
+  {
+    "literal": 20631,
+    "text": "ctx.ui.clearWindows"
+  },
+  {
+    "literal": 20632,
+    "text": "ctx.ui.closeMessage"
+  },
+  {
+    "literal": 20633,
+    "text": "ctx.ui.createWindow"
+  },
+  {
+    "literal": 20634,
+    "text": "ctx.ui.destroyWindow"
+  },
+  {
+    "literal": 20635,
+    "text": "ctx.ui.holdForChoices"
+  },
+  {
+    "literal": 20636,
+    "text": "ctx.ui.isBusy"
+  },
+  {
+    "literal": 20637,
+    "text": "ctx.ui.isChoiceBusy"
+  },
+  {
+    "literal": 20638,
+    "text": "ctx.ui.isItemSelectBusy"
+  },
+  {
+    "literal": 20639,
+    "text": "ctx.ui.isNameInputBusy"
+  },
+  {
+    "literal": 20640,
+    "text": "ctx.ui.isNumberInputBusy"
+  },
+  {
+    "literal": 20641,
+    "text": "ctx.ui.isScrollTextBusy"
+  },
+  {
+    "literal": 20642,
+    "text": "ctx.ui.refreshList"
+  },
+  {
+    "literal": 20643,
+    "text": "ctx.ui.registerScene"
+  },
+  {
+    "literal": 20644,
+    "text": "ctx.ui.sceneWindow"
+  },
+  {
+    "literal": 20645,
+    "text": "ctx.ui.setListVisible"
+  },
+  {
+    "literal": 20646,
+    "text": "ctx.ui.setMessageStyle"
+  },
+  {
+    "literal": 20647,
+    "text": "ctx.ui.setWindow"
+  },
+  {
+    "literal": 20648,
+    "text": "ctx.ui.showChoices"
+  },
+  {
+    "literal": 20649,
+    "text": "ctx.ui.showItemSelect"
+  },
+  {
+    "literal": 20650,
+    "text": "ctx.ui.showMessage"
+  },
+  {
+    "literal": 20651,
+    "text": "ctx.ui.showNameInput"
+  },
+  {
+    "literal": 20652,
+    "text": "ctx.ui.showNumberInput"
+  },
+  {
+    "literal": 20653,
+    "text": "ctx.ui.showScrollText"
+  },
+  {
+    "literal": 20654,
+    "text": "ctx.ui.takeChoiceResult"
+  },
+  {
+    "literal": 20655,
+    "text": "ctx.ui.takeItemSelectResult"
+  },
+  {
+    "literal": 20656,
+    "text": "ctx.ui.takeNameInputResult"
+  },
+  {
+    "literal": 20657,
+    "text": "ctx.ui.takeNumberInputResult"
+  },
+  {
+    "literal": 21199,
+    "text": "endUndoGroup"
+  },
+  {
+    "literal": 21200,
+    "text": "endUndoGroup: 開いている Undo グループがありません (beginUndoGroup 未呼び)"
+  },
+  {
+    "literal": 22922,
+    "text": "luau/plugins の走査に見つかりません: {0}"
+  },
+  {
+    "literal": 22923,
+    "text": "luau/plugins フォルダにプラグイン (.luau) がありません。"
+  },
+  {
+    "literal": 23652,
+    "text": "null is not supported in plugin state (at "
+  },
+  {
+    "literal": 23810,
+    "text": "openMap: mapId="
+  },
+  {
+    "literal": 23811,
+    "text": "openMap: mapUid "
+  },
+  {
+    "literal": 23812,
+    "text": "openMap: ロード後の現在マップを取得できませんでした"
+  },
+  {
+    "literal": 23956,
+    "text": "paintGround: 座標 ("
+  },
+  {
+    "literal": 24076,
+    "text": "placePart: 配置できませんでした (0 parts)"
+  },
+  {
+    "literal": 24077,
+    "text": "placeParts"
+  },
+  {
+    "literal": 24078,
+    "text": "placeParts: "
+  },
+  {
+    "literal": 24079,
+    "text": "placeParts: requests[{0}] の parent が null です"
+  },
+  {
+    "literal": 24080,
+    "text": "placeParts: requests[{0}] の preset が null です"
+  },
+  {
+    "literal": 24081,
+    "text": "placeParts: requests[{0}] を配置できませんでした (clone 生成失敗)"
+  },
+  {
+    "literal": 24082,
+    "text": "placeParts: 配置数が一致しません ("
+  },
+  {
+    "literal": 24112,
+    "text": "plugin state name empty"
+  },
+  {
+    "literal": 24381,
+    "text": "registerEscape"
+  },
+  {
+    "literal": 24382,
+    "text": "registerEscape(code, handler): handler must be a function (and no extra arguments)"
+  },
+  {
+    "literal": 24383,
+    "text": "registerEscape: 登録口 __u2uRegisterEscape を呼べませんでした: "
+  },
+  {
+    "literal": 24385,
+    "text": "registerScene"
+  },
+  {
+    "literal": 24386,
+    "text": "registerScene(def): too many arguments"
+  },
+  {
+    "literal": 24387,
+    "text": "registerScene: "
+  },
+  {
+    "literal": 24388,
+    "text": "registerScene: def.id must be 1-"
+  },
+  {
+    "literal": 24389,
+    "text": "registerScene: def.id must be a string"
+  },
+  {
+    "literal": 24390,
+    "text": "registerScene: scene '"
+  },
+  {
+    "literal": 24391,
+    "text": "registerScene: too many scenes (max "
+  },
+  {
+    "literal": 24392,
+    "text": "registerScene: 登録口 __u2uSceneRegister を呼べませんでした: "
+  },
+  {
+    "literal": 24857,
+    "text": "setPartFlags"
+  },
+  {
+    "literal": 24858,
+    "text": "setPartFlags: partId を 1 つ以上渡してください (引数 table の配列部が空)"
+  },
+  {
+    "literal": 24859,
+    "text": "setPartFlags: partId 数 "
+  },
+  {
+    "literal": 24860,
+    "text": "setPartFlags: 変更するフラグが 1 つも指定されていません"
+  },
+  {
+    "literal": 24861,
+    "text": "setPartFlags["
+  },
+  {
+    "literal": 24862,
+    "text": "setPartFlags{\"iid:...\", \"iid:...\", swingByWind=true} の形で渡してください"
+  },
+  {
+    "literal": 24863,
+    "text": "setPartSubTileOffset"
+  },
+  {
+    "literal": 24864,
+    "text": "setPartSubTileOffset: partId が beginUndoGroup の対象に含まれていません: "
+  },
+  {
+    "literal": 24865,
+    "text": "setPartSubTileOffset: 適用できませんでした"
+  },
+  {
+    "literal": 30481,
+    "text": "構造体 `{0}` の定義が見つかりません (`--[[~struct~{0}: ]]` が注釈にありません)。値は入力した文字列のまま保存されます。"
+  }
+]
